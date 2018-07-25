@@ -1,0 +1,14 @@
+{
+    "name": "Local MakerBit+R Test",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "makerbit": "file:../pxt-makerbit"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ]
+}

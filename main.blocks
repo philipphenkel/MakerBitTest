@@ -1,0 +1,344 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="pxt-on-start" x="140" y="0">
+    <statement name="HANDLER">
+      <block type="device_show_leds">
+        <field name="LED00">TRUE</field>
+        <field name="LED10">TRUE</field>
+        <field name="LED20">TRUE</field>
+        <field name="LED30">TRUE</field>
+        <field name="LED40">TRUE</field>
+        <field name="LED01">TRUE</field>
+        <field name="LED11">TRUE</field>
+        <field name="LED21">TRUE</field>
+        <field name="LED31">TRUE</field>
+        <field name="LED41">TRUE</field>
+        <field name="LED02">TRUE</field>
+        <field name="LED12">TRUE</field>
+        <field name="LED22">TRUE</field>
+        <field name="LED32">TRUE</field>
+        <field name="LED42">TRUE</field>
+        <field name="LED03">TRUE</field>
+        <field name="LED13">TRUE</field>
+        <field name="LED23">TRUE</field>
+        <field name="LED33">TRUE</field>
+        <field name="LED43">TRUE</field>
+        <field name="LED04">TRUE</field>
+        <field name="LED14">TRUE</field>
+        <field name="LED24">TRUE</field>
+        <field name="LED34">TRUE</field>
+        <field name="LED44">TRUE</field>
+        <next>
+          <block type="device_pause">
+            <value name="pause">
+              <shadow type="math_number">
+                <field name="NUM">500</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="device_show_leds">
+                <field name="LED00">FALSE</field>
+                <field name="LED10">FALSE</field>
+                <field name="LED20">FALSE</field>
+                <field name="LED30">FALSE</field>
+                <field name="LED40">FALSE</field>
+                <field name="LED01">FALSE</field>
+                <field name="LED11">FALSE</field>
+                <field name="LED21">FALSE</field>
+                <field name="LED31">FALSE</field>
+                <field name="LED41">FALSE</field>
+                <field name="LED02">FALSE</field>
+                <field name="LED12">FALSE</field>
+                <field name="LED22">FALSE</field>
+                <field name="LED32">FALSE</field>
+                <field name="LED42">FALSE</field>
+                <field name="LED03">FALSE</field>
+                <field name="LED13">FALSE</field>
+                <field name="LED23">FALSE</field>
+                <field name="LED33">FALSE</field>
+                <field name="LED43">FALSE</field>
+                <field name="LED04">FALSE</field>
+                <field name="LED14">FALSE</field>
+                <field name="LED24">FALSE</field>
+                <field name="LED34">FALSE</field>
+                <field name="LED44">FALSE</field>
+                <next>
+                  <block type="device_pause">
+                    <value name="pause">
+                      <shadow type="math_number">
+                        <field name="NUM">500</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="device_show_leds">
+                        <field name="LED00">TRUE</field>
+                        <field name="LED10">TRUE</field>
+                        <field name="LED20">TRUE</field>
+                        <field name="LED30">TRUE</field>
+                        <field name="LED40">TRUE</field>
+                        <field name="LED01">TRUE</field>
+                        <field name="LED11">TRUE</field>
+                        <field name="LED21">TRUE</field>
+                        <field name="LED31">TRUE</field>
+                        <field name="LED41">TRUE</field>
+                        <field name="LED02">TRUE</field>
+                        <field name="LED12">TRUE</field>
+                        <field name="LED22">TRUE</field>
+                        <field name="LED32">TRUE</field>
+                        <field name="LED42">TRUE</field>
+                        <field name="LED03">TRUE</field>
+                        <field name="LED13">TRUE</field>
+                        <field name="LED23">TRUE</field>
+                        <field name="LED33">TRUE</field>
+                        <field name="LED43">TRUE</field>
+                        <field name="LED04">TRUE</field>
+                        <field name="LED14">TRUE</field>
+                        <field name="LED24">TRUE</field>
+                        <field name="LED34">TRUE</field>
+                        <field name="LED44">TRUE</field>
+                        <next>
+                          <block type="device_pause">
+                            <value name="pause">
+                              <shadow type="math_number">
+                                <field name="NUM">500</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="device_show_leds">
+                                <field name="LED00">FALSE</field>
+                                <field name="LED10">FALSE</field>
+                                <field name="LED20">FALSE</field>
+                                <field name="LED30">FALSE</field>
+                                <field name="LED40">FALSE</field>
+                                <field name="LED01">FALSE</field>
+                                <field name="LED11">FALSE</field>
+                                <field name="LED21">FALSE</field>
+                                <field name="LED31">FALSE</field>
+                                <field name="LED41">FALSE</field>
+                                <field name="LED02">FALSE</field>
+                                <field name="LED12">FALSE</field>
+                                <field name="LED22">FALSE</field>
+                                <field name="LED32">FALSE</field>
+                                <field name="LED42">FALSE</field>
+                                <field name="LED03">FALSE</field>
+                                <field name="LED13">FALSE</field>
+                                <field name="LED23">FALSE</field>
+                                <field name="LED33">FALSE</field>
+                                <field name="LED43">FALSE</field>
+                                <field name="LED04">FALSE</field>
+                                <field name="LED14">FALSE</field>
+                                <field name="LED24">FALSE</field>
+                                <field name="LED34">FALSE</field>
+                                <field name="LED44">FALSE</field>
+                                <next>
+                                  <block type="device_pause">
+                                    <value name="pause">
+                                      <shadow type="math_number">
+                                        <field name="NUM">500</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="device_show_leds">
+                                        <field name="LED00">TRUE</field>
+                                        <field name="LED10">TRUE</field>
+                                        <field name="LED20">TRUE</field>
+                                        <field name="LED30">TRUE</field>
+                                        <field name="LED40">TRUE</field>
+                                        <field name="LED01">TRUE</field>
+                                        <field name="LED11">TRUE</field>
+                                        <field name="LED21">TRUE</field>
+                                        <field name="LED31">TRUE</field>
+                                        <field name="LED41">TRUE</field>
+                                        <field name="LED02">TRUE</field>
+                                        <field name="LED12">TRUE</field>
+                                        <field name="LED22">TRUE</field>
+                                        <field name="LED32">TRUE</field>
+                                        <field name="LED42">TRUE</field>
+                                        <field name="LED03">TRUE</field>
+                                        <field name="LED13">TRUE</field>
+                                        <field name="LED23">TRUE</field>
+                                        <field name="LED33">TRUE</field>
+                                        <field name="LED43">TRUE</field>
+                                        <field name="LED04">TRUE</field>
+                                        <field name="LED14">TRUE</field>
+                                        <field name="LED24">TRUE</field>
+                                        <field name="LED34">TRUE</field>
+                                        <field name="LED44">TRUE</field>
+                                        <next>
+                                          <block type="makerbit_lcd_set_address">
+                                            <value name="i2cAddress">
+                                              <shadow type="math_number">
+                                                <field name="NUM">39</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="makerbit_lcd_show_string">
+                                                <value name="text">
+                                                  <shadow type="text">
+                                                    <field name="TEXT">MakerBit........with backlight</field>
+                                                  </shadow>
+                                                </value>
+                                                <value name="position">
+                                                  <shadow type="lcd_position"></shadow>
+                                                  <block type="lcd_position">
+                                                    <field name="position">makerbit.LcdPosition.P0</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="device_pause">
+                                                    <value name="pause">
+                                                      <shadow type="math_number">
+                                                        <field name="NUM">500</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="typescript_statement" editable="false">
+                                                        <mutation line0="makerbit.setLcdBacklight(makerbit.LcdBacklight.Off)" numlines="1"></mutation>
+                                                        <next>
+                                                          <block type="makerbit_lcd_clear">
+                                                            <next>
+                                                              <block type="makerbit_lcd_show_string">
+                                                                <value name="text">
+                                                                  <shadow type="text">
+                                                                    <field name="TEXT">Backlight off</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <value name="position">
+                                                                  <shadow type="lcd_position"></shadow>
+                                                                  <block type="lcd_position">
+                                                                    <field name="position">makerbit.LcdPosition.P16</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="basic_show_icon">
+                                                                    <field name="i">IconNames.EigthNote</field>
+                                                                    <next>
+                                                                      <block type="makerbit_lcd_clear">
+                                                                        <next>
+                                                                          <block type="makerbit_lcd_show_string">
+                                                                            <value name="text">
+                                                                              <shadow type="text">
+                                                                                <field name="TEXT">MP3 Functional</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="position">
+                                                                              <shadow type="lcd_position"></shadow>
+                                                                              <block type="lcd_position">
+                                                                                <field name="position">makerbit.LcdPosition.P0</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="makerbit_mp3_connect">
+                                                                                <field name="mp3RX">makerbit.Pin.A0</field>
+                                                                                <field name="mp3TX">makerbit.Pin.A1</field>
+                                                                                <next>
+                                                                                  <block type="makerbit_mp3_play_track_from_folder">
+                                                                                    <field name="mode">makerbit.Play.Once</field>
+                                                                                    <value name="track">
+                                                                                      <shadow type="math_number_minmax">
+                                                                                        <mutation min="1" max="255"></mutation>
+                                                                                        <field name="NUM">1</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                    <value name="folder">
+                                                                                      <shadow type="math_number_minmax">
+                                                                                        <mutation min="1" max="99"></mutation>
+                                                                                        <field name="NUM">1</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="device_forever" x="0" y="174"></block>
+  <block type="makerbit_mp3_playback_completed" x="149" y="1395">
+    <statement name="HANDLER">
+      <block type="basic_show_icon">
+        <field name="i">IconNames.QuarterNote</field>
+      </block>
+    </statement>
+  </block>
+  <block type="device_button_event" x="457" y="1396">
+    <field name="NAME">Button.A</field>
+    <statement name="HANDLER">
+      <block type="basic_show_icon">
+        <field name="i">IconNames.EigthNote</field>
+        <next>
+          <block type="makerbit_lcd_clear">
+            <next>
+              <block type="makerbit_lcd_show_string">
+                <value name="text">
+                  <shadow type="text">
+                    <field name="TEXT">MP3 Mission</field>
+                  </shadow>
+                </value>
+                <value name="position">
+                  <shadow type="lcd_position"></shadow>
+                  <block type="lcd_position">
+                    <field name="position">makerbit.LcdPosition.P0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="makerbit_mp3_play_folder">
+                    <field name="mode">makerbit.Play.Once</field>
+                    <value name="folder">
+                      <shadow type="math_number_minmax">
+                        <mutation min="1" max="99"></mutation>
+                        <field name="NUM">3</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="device_button_event" x="114" y="1547">
+    <field name="NAME">Button.B</field>
+    <statement name="HANDLER">
+      <block type="basic_show_icon">
+        <field name="i">IconNames.Heart</field>
+      </block>
+    </statement>
+  </block>
+</xml>
